@@ -1,0 +1,814 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="title" content="KB국민은행">
+    <meta name="description" content="KB국민은행">
+    <title>KB국민은행</title>
+    <link rel="shortcut icon" href="./images/KB_s_kr3.svg" type="image/x-icon">
+
+
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/fonts.css">
+    <link rel="stylesheet" href="./css/slick.css">
+    <link rel="stylesheet" href="./css/common.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="./css/style.css">
+
+    <script src="./js/jquery-1.12.4.min.js"></script>
+    <script src="./js/slick.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="./js/custom.js" defer></script>
+
+</head>
+
+<body>
+    <div class="Wrap">
+
+        <header id="Header">
+            <div class="header_top">
+                <div class="inner">
+                    <h1>
+                        <a href="/">
+                            <img src="./images/KB_logo.png" alt="">
+                        </a>
+                    </h1>
+                    <div class="top_menu">
+                        <ul class="m1">
+                            <li><a href="/">개인</a></li>
+                            <li><a href="/">기업</a></li>
+                        </ul>
+                        <ul class="m2">
+                            <li><a href="/">자산관리</a></li>
+                            <li><a href="/">부동산</a></li>
+                            <li><a href="/">퇴직연금</a></li>
+                            <li><a href="/">카드</a></li>
+                        </ul>
+                        <ul class="m3">
+                            <li>
+                                <a href="/">전체서비스</a>
+                                <span class="material-symbols-outlined">
+                                    arrow_drop_down
+                                </span>
+                            </li>
+                        </ul>
+                        <ul class="m4">
+                            <li><a href="/">GLOBAL</a>
+                                <span class="material-symbols-outlined">
+                                    arrow_drop_down
+                                </span>
+                            </li>
+                        </ul>
+                        <div class="util">
+                            <span class="material-symbols-outlined">
+                                search
+                            </span>
+                            <span class="material-symbols-outlined">
+                                menu
+                            </span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="menu_bar">
+                <i class="xi-bars"></i>
+            </div>
+        </header>
+        <div class="header_bottom">
+            <div class="inner">
+                <nav class="gnb">
+                    <ul>
+                        <li><a href="/">전체계좌조회</a>
+                            <ul class="sub_menu">
+                                <li><a href="">계좌조회</a></li>
+                                <li><a href="">다른금융 조회</a></li>
+                                <li><a href="">KB금융그룹통합 조회</a></li>
+                                <li><a href="">휴면계좌 조회</a></li>
+                                <li><a href="">전자통장 조회</a></li>
+                                <li><a href="">장기미거래신탁계좌 조회</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="/">계좌이체</a>
+                            <ul class="sub_menu">
+                                <li><a href="">계좌이체결과 조회</a></li>
+                                <li><a href="">다른금융계좌</a></li>
+                                <li><a href="">KB금융그룹통합 조회</a></li>
+                                <li><a href="">잔액 모으기 예약</a></li>
+                                <li><a href="">전화승인결과 조회</a></li>
+                                <li><a href="">ID모아보기 이체결과</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="/">고객우대제도</a>
+                            <ul class="sub_menu">
+                                <li><a href="">공과금 등록/관리</a></li>
+                                <li><a href="">공과금 조회/납부</a></li>
+                                <li><a href="">KB금융그룹통합 조회</a></li>
+                                <li><a href="">납부확인증 보관함</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="/">소비자보호</a>
+                            <ul class="sub_menu">
+                                <li><a href="">알림·안심서비스</a></li>
+                                <li><a href="">채무면제·유예상품</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="/">상담/예약</a>
+                            <ul class="sub_menu">
+                                <li><a href="">내정보관리</a></li>
+                                <li><a href="">소유카드관리</a></li>
+                                <li><a href="">결제일·계좌관리</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="/">상품공시실</a>
+                            <ul class="sub_menu">
+                                <li><a href="">카드대금결제</a></li>
+                                <li><a href="">분할납부·할부관리</a></li>
+                                <li><a href="">결제내역</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+
+
+        <main id="Main">
+            <section class="MainSlide">
+                <h2 class="blind">main slide</h2>
+                <div class="main_slide swiper">
+                    <div class="swiper-wrapper">
+
+                        <div class="swiper-slide itm itm01">
+                            <div class="slide_img">
+                                <div class="slide_content">
+                                    <div class="txt_area">
+                                        <strong>
+                                            소상공인•자영업자<br />
+                                            상생지원금
+                                        </strong>
+                                        <span>
+                                            긴급 사업운영비용 30만원 지원(대상 선정시)<br />
+                                            신청 접수: 2023.12.18(월)~12.29(금)
+                                        </span>
+                                    </div>
+                                    <div class="btn_area">
+                                        <a href="/">
+                                            <span>바로가기</span>
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="img_area">
+                                    <img class="img01" src="./images/main_slide01_1.png" alt="">
+                                    <img class="img02" src="./images/main_slide01_2.png" alt="">
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="swiper-slide itm itm02">
+                            <div class="slide_img">
+                                <div class="slide_content">
+                                    <div class="txt_area">
+                                        <strong>
+                                            자녀통장 휴대폰으로 만들고,<br />
+                                            행운의 2024명 되자!
+                                        </strong>
+                                        <span>
+                                            2024년 맞이 살림살이 CHANGE UP!<br />
+                                            신청 접수: 2023.12.01(금)~01.31(수)
+                                        </span>
+                                    </div>
+                                    <div class="btn_area">
+                                        <a href="/">
+                                            <span>바로가기</span>
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="img_area">
+                                    <img class="img01" src="./images/main_slide02_1.png" alt="">
+                                    <img class="img02" src="./images/main_slide02_2.png" alt="">
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="swiper-slide itm itm03">
+                            <div class="slide_img">
+                                <div class="slide_content">
+                                    <div class="txt_area">
+                                        <strong>
+                                            고객의 행복과 <br />
+                                            더 나은 세상을 만들겠습니다
+                                        </strong>
+                                        <span>
+                                            긴급 사업운영비용 30만원 지원(대상 선정시)<br />
+                                            신청 접수: 2023.12.18(월)~12.29(금)
+                                        </span>
+                                    </div>
+                                    <div class="btn_area">
+                                        <a href="/">
+                                            <span>바로가기</span>
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="img_area">
+                                    <img class="img01" src="./images/main_slide03_1.png" alt="">
+                                    <img class="img02" src="./images/main_slide03_2.png" alt="">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide itm itm04">
+                            <div class="slide_img">
+                                <div class="slide_content">
+                                    <div class="txt_area">
+                                        <strong>
+                                            KB국민은행 <br />
+                                            여섯시은행(9To6 BANK)
+                                        </strong>
+                                        <span>
+                                            전국 82개 지점 운영 중입니다!<br />
+                                            신청 접수: 2023.12.18(월)~12.29(금)
+                                        </span>
+                                    </div>
+                                    <div class="btn_area">
+                                        <a href="/">
+                                            <span>바로가기</span>
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="img_area">
+                                    <img class="img01" src="./images/main_slide04_1.png" alt="">
+                                    <img class="img02" src="./images/main_slide04_2.png" alt="">
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="swiper-slide itm itm05">
+                            <div class="slide_img">
+                                <div class="slide_content">
+                                    <div class="txt_area">
+                                        <strong>
+                                            비정상거처 이주지원<br />
+                                            버팀목대출
+                                        </strong>
+                                        <span>
+                                            공공임대주택 이주비대출 (최대50만원, 무이자)<br />
+                                            민간임대주택 이주비대출 (최대8천만원)
+                                        </span>
+                                    </div>
+                                    <div class="btn_area">
+                                        <a href="/">
+                                            <span>바로가기</span>
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="img_area">
+                                    <img class="img01" src="./images/main_slide05_1.png" alt="">
+                                    <img class="img02" src="./images/main_slide05_2.png" alt="">
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="inner">
+                        <div class="arrows">
+                            <div class="left" role="button">
+                                <span class="material-symbols-outlined">
+                                    arrow_back
+                                </span>
+                            </div>
+                            <div class="right" role="button">
+                                <span class="material-symbols-outlined">
+                                    arrow_forward
+                                </span>
+                            </div>
+                            <div class="swiper-pagination"></div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="MainNews">
+                <h2 class="blind">main news</h2>
+                <div class="inner">
+                    <div class="left">
+                        <div class="tit_area">
+                            <h3>새소식</h3>
+                            <div class="btn_area">
+                                <a href="/">
+                                    <span>바로가기</span>
+                                </a>
+                            </div>
+                        </div>
+
+                        <ul class="list">
+                            <li>
+                                <a href=""><strong>「KB스타뱅킹」 간편회원 개편 안내</strong></a>
+                                <p>12.05</p>
+                            </li>
+                            <li>
+                                <a href=""><strong>「KB마이데이터 서비스 이용약관」 개정 안내</strong></a>
+                                <p>11.20</p>
+                            </li>
+                            <li>
+                                <a href=""><strong>「KB국민인증서 서비스」 이용약관 개정 안내</strong></a>
+                                <p>11.20</p>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="right">
+                        <div class="tit_area">
+                            <h3>이벤트</h3>
+                            <div class="btn_area">
+                                <a href="/">
+                                    <span>바로가기</span>
+                                </a>
+                            </div>
+                        </div>
+
+                        <ul class="list">
+                            <li>
+                                <a href=""><strong>[KB국민은행X리프레쉬골프] 칠수록 이득! 할인 받아 골프 치고 제대로 리프레쉬!</strong></a>
+                                <p>11.24 ~ 01.31</p>
+                            </li>
+                            <li>
+                                <a href=""><strong>KB Liiv M에서 드리는 최대 3만 포인트리!</strong></a>
+                                <p>11.01 ~ 12.31</p>
+                            </li>
+                            <li>
+                                <a href=""><strong>KB가 처음이라면?오히려 좋아
+                                        입출금통장 처음 만들면 최대 4만3천원 혜택</strong></a>
+                                <p>11.01 ~ 12.31</p>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+            </section>
+
+            <section class="MainSuggest">
+                <h2 class="blind">main suggest</h2>
+                <div class="inner">
+                    <div class="tit_area">
+                        <h3>KB 추천상품</h3>
+                    </div>
+                    <div class="suggest_slide swiper">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide itm itm01">
+                                <div class="img_area">
+                                    <img src="./images/main_sug01_1.png" alt="">
+                                    <img src="./images/main_sug01_2.png" alt="">
+                                </div>
+                                <div class="txt_area">
+                                    <strong>KB Young Youth 적금</strong>
+                                    <p>나와 내아이를 위한 상품<br />
+                                        다양한 부가서비스까지 한가득</p>
+                                </div>
+                                <a href="">
+                                    <span class="material-symbols-outlined">
+                                        add
+                                    </span>
+                                </a>
+                            </div>
+                            <div class="swiper-slide itm itm02">
+                                <div class="img_area">
+                                    <img src="./images/main_sug02_1.png" alt="">
+                                    <img src="./images/main_sug02_2.png" alt="">
+                                </div>
+                                <div class="txt_area">
+                                    <strong>KB Star 정기예금</strong>
+                                    <p>Digital KB의 대표 정기예금<br />
+                                        알아서 자동재예치/자동해지</p>
+                                </div>
+                                <a href="">
+                                    <span class="material-symbols-outlined">
+                                        add
+                                    </span>
+                                </a>
+                            </div>
+                            <div class="swiper-slide itm itm03">
+                                <div class="img_area">
+                                    <img src="./images/main_sug03_1.png" alt="">
+                                    <img src="./images/main_sug03_2.png" alt="">
+                                </div>
+                                <div class="txt_area">
+                                    <strong>KB 마이핏통장</strong>
+                                    <p>높은 이율! 수수료 혜택!<br />
+                                        목적별 자금관리를 통장 하나로!</p>
+                                </div>
+                                <a href="">
+                                    <span class="material-symbols-outlined">
+                                        add
+                                    </span>
+                                </a>
+                            </div>
+                            <div class="swiper-slide itm itm04">
+                                <div class="img_area">
+                                    <img src="./images/main_sug04_1.png" alt="">
+                                    <img src="./images/main_sug04_2.png" alt="">
+                                </div>
+                                <div class="txt_area">
+                                    <strong>건강한 자산관리 KB마이데이터</strong>
+                                    <p>각 기관에 흩어진 나의 자산을<br />
+                                        한 곳에 모아서 관리해보세요.</p>
+                                </div>
+                                <a href="">
+                                    <span class="material-symbols-outlined">
+                                        add
+                                    </span>
+                                </a>
+                            </div>
+                            <div class="swiper-slide itm itm05">
+                                <div class="img_area">
+                                    <img src="./images/main_sug05_1.png" alt="">
+                                    <img src="./images/main_sug05_2.png" alt="">
+                                </div>
+                                <div class="txt_area">
+                                    <strong>이동통신서비스 Liiv M</strong>
+                                    <p>KB국민은행의 혁신금융서비스로<br />
+                                        금융권 최초로 제공하는 이동통신서비스</p>
+                                </div>
+                                <a href="">
+                                    <span class="material-symbols-outlined">
+                                        add
+                                    </span>
+                                </a>
+                            </div>
+                            <div class="swiper-slide itm itm06">
+                                <div class="img_area">
+                                    <img src="./images/main_sug06_1.png" alt="">
+                                    <img src="./images/main_sug06_2.png" alt="">
+                                </div>
+                                <div class="txt_area">
+                                    <strong>KB Young Youth 적금</strong>
+                                    <p>나와 내아이를 위한 상품<br />
+                                        다양한 부가서비스까지 한가득</p>
+                                </div>
+                                <a href="">
+                                    <span class="material-symbols-outlined">
+                                        add
+                                    </span>
+                                </a>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="arrows">
+                    <div class="left" role="button">
+                        <span class="material-symbols-outlined">
+                            arrow_back
+                        </span>
+                    </div>
+                    <div class="right" role="button">
+                        <span class="material-symbols-outlined">
+                            arrow_forward
+                        </span>
+                    </div>
+                </div>
+            </section>
+
+            <section class="MainService">
+                <h2 class="blind">main service</h2>
+                <div class="inner">
+                    <div class="tit_area">
+                        <h3>금융상품</h3>
+                        <div class="btn_area">
+                            <a href="/">
+                                <span>바로가기</span>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="icon_area">
+                        <a href="">
+                            <figure>
+                                <img src="./images/main_service01.png" alt="">
+                            </figure>
+                            <p>예금</p>
+                        </a>
+                        <a href="">
+                            <figure>
+                                <img src="./images/main_service02.png" alt="">
+                            </figure>
+                            <p>펀드</p>
+                        </a>
+                        <a href="">
+                            <figure>
+                                <img src="./images/main_service03.png" alt="">
+                            </figure>
+                            <p>대출</p>
+                        </a>
+                        <a href="">
+                            <figure>
+                                <img src="./images/main_service04.png" alt="">
+                            </figure>
+                            <p>신탁</p>
+                        </a>
+                        <a href="">
+                            <figure>
+                                <img src="./images/main_service05.png" alt="">
+                            </figure>
+                            <p>ISA</p>
+                        </a>
+                        <a href="">
+                            <figure>
+                                <img src="./images/main_service06.png" alt="">
+                            </figure>
+                            <p>보험/공제</p>
+                        </a>
+                        <a href="">
+                            <figure>
+                                <img src="./images/main_service07.png" alt="">
+                            </figure>
+                            <p>골드</p>
+                        </a>
+                        <a href="">
+                            <figure>
+                                <img src="./images/main_service08.png" alt="">
+                            </figure>
+                            <p>외화예금</p>
+                        </a>
+                    </div>
+                </div>
+            </section>
+
+            <section class="MainCard">
+                <h2 class="blind">main card</h2>
+                <div class="inner">
+                    <div class="tab_wrap">
+                        <div class="tab_menu">
+                            <ul class="tab_btn">
+                                <li class="active"><a href="">신용카드</a></li>
+                                <li><a href="">체크카드</a></li>
+                                <li><a href="">프리미엄카드</a></li>
+                            </ul>
+                        </div>
+                        <div class="tab_cont">
+                            <div class="tab_in">
+                                <div class="cont_img">
+                                    <img src="./images/main_card01.png" alt="">
+                                    <div class="cont_txt">
+                                        <strong>My WE:SH 카드</strong>
+                                        <a href="/">자세히보기
+                                            <span class="material-symbols-outlined">
+                                                arrow_drop_down
+                                            </span>
+                                        </a>
+                                    </div>
+                                    <p>'나'의 행복을 위한 필수카드</p>
+
+                                </div>
+                                <div class="cont_img">
+                                    <img src="./images/main_card02.png" alt="">
+                                    <div class="cont_txt">
+                                        <strong>굿데이카드</strong>
+                                        <a href="/">자세히보기
+                                            <span class="material-symbols-outlined">
+                                                arrow_drop_down
+                                            </span>
+                                        </a>
+                                    </div>
+                                    <p>생활에 힘이 되는 카드</p>
+                                </div>
+                                <div class="cont_img">
+                                    <img src="./images/main_card03.png" alt="">
+                                    <div class="cont_txt">
+                                        <strong>청춘대로 톡톡카드</strong>
+                                        <a href="/">자세히보기
+                                            <span class="material-symbols-outlined">
+                                                arrow_drop_down
+                                            </span>
+                                        </a>
+                                    </div>
+                                    <p>Simple하게 즐기자! 혜택 톡톡!</p>
+                                </div>
+                            </div>
+                            <div class="tab_in">
+                                <div class="cont_img">
+                                    <img src="./images/main_card04.png" alt="">
+                                    <div class="cont_txt">
+                                        <strong>노리2 체크카드</strong>
+                                        <a href="/">자세히보기
+                                            <span class="material-symbols-outlined">
+                                                arrow_drop_down
+                                            </span>
+                                        </a>
+                                    </div>
+                                    <p>국민 대표 체크카드 시즌2 개막</p>
+
+                                </div>
+                                <div class="cont_img">
+                                    <img src="./images/main_card05.png" alt="">
+                                    <div class="cont_txt">
+                                        <strong>노리2 체크카드(Global)</strong>
+                                        <a href="/">자세히보기
+                                            <span class="material-symbols-outlined">
+                                                arrow_drop_down
+                                            </span>
+                                        </a>
+                                    </div>
+                                    <p>국민 대표 체크카드 Global ver.</p>
+                                </div>
+                                <div class="cont_img">
+                                    <img src="./images/main_card06.png" alt="">
+                                    <div class="cont_txt">
+                                        <strong>노리2 체크카드(Play)</strong>
+                                        <a href="/">자세히보기
+                                            <span class="material-symbols-outlined">
+                                                arrow_drop_down
+                                            </span>
+                                        </a>
+                                    </div>
+                                    <p>국민 대표 체크카드 Play ver.</p>
+                                </div>
+                            </div>
+                            <div class="tab_in">
+                                <div class="cont_img">
+                                    <img src="./images/main_card07.png" alt="">
+                                    <div class="cont_txt">
+                                        <strong>HERITAGE Exclusive</strong>
+                                        <a href="/">자세히보기
+                                            <span class="material-symbols-outlined">
+                                                arrow_drop_down
+                                            </span>
+                                        </a>
+                                    </div>
+                                    <p>변함없는 가치, HERITAGE</p>
+
+                                </div>
+                                <div class="cont_img">
+                                    <img src="./images/main_card08.png" alt="">
+                                    <div class="cont_txt">
+                                        <strong>HERITAGE Reserve(포인트형)</strong>
+                                        <a href="/">자세히보기
+                                            <span class="material-symbols-outlined">
+                                                arrow_drop_down
+                                            </span>
+                                        </a>
+                                    </div>
+                                    <p>변함없는 가치, HERITAGE 포인트 ver.</p>
+                                </div>
+                                <div class="cont_img">
+                                    <img src="./images/main_card09.png" alt="">
+                                    <div class="cont_txt">
+                                        <strong>HERITAGE Smart</strong>
+                                        <a href="/">자세히보기
+                                            <span class="material-symbols-outlined">
+                                                arrow_drop_down
+                                            </span>
+                                        </a>
+                                    </div>
+                                    <p>대한항공 마일리지형</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card_check">
+                        <div class="check_box">
+                            <div class="tit_area">
+                                <h3>단기카드대출</h3>
+                                <p>현금이 필요할 때<br />
+                                    24시간 365일 1만원부터</p>
+                                <div class="btn_area">
+                                    <a href="/">
+                                        <span>바로가기</span>
+                                    </a>
+                                    <figure>
+                                        <img src="./images/main_check01.png" alt="">
+                                    </figure>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="check_box">
+                            <div class="tit_area">
+                                <h3>장기카드대출</h3>
+                                <p>목돈이 필요할 때 <br />
+                                    중도상환 수수료 없이 간편하게 신청</p>
+                                <div class="btn_area">
+                                    <a href="/">
+                                        <span>바로가기</span>
+                                    </a>
+                                    <figure>
+                                        <img src="./images/main_check02.png" alt="">
+                                    </figure>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="check_box inbox">
+                            <div class="tit_area">
+                                <p>KB국민<br />
+                                    신용대출</p>
+                            </div>
+                            <figure>
+                                <img src="./images/main_check03.png" alt="">
+                            </figure>
+                        </div>
+                        <div class="check_box inbox">
+                            <div class="tit_area">
+                                <p>자동차금융</p>
+                            </div>
+                            <figure>
+                                <img src="./images/main_check04.png" alt="">
+                            </figure>
+                        </div>
+                        <div class="check_box inbox">
+                            <div class="tit_area">
+                                <p>일부금액<br />
+                                    이월약정</p>
+                            </div>
+                            <figure>
+                                <img src="./images/main_check05.png" alt="">
+                            </figure>
+                        </div>
+                        <div class="check_box inbox">
+                            <div class="tit_area">
+                                <p>올리스금융</p>
+                            </div>
+                            <figure>
+                                <img src="./images/main_check06.png" alt="">
+                            </figure>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+        </main>
+
+
+        <footer id="Footer">
+            <div class="footer_top">
+                <div class="inner">
+                    <ul>
+                        <li><a href="#">회사소개</a></li>
+                        <li><a href="#" class="person">개인정보처리방침</a></li>
+                        <li><a href="#">위치기반서비스 이용약관</a></li>
+                        <li><a href="#">고객권리안내</a></li>
+                        <li><a href="#">이용약관</a></li>
+                        <li><a href="#">공시정보</a></li>
+                        <li><a href="#">상품공시실</a></li>
+                        <li><a href="#">전자민원접수</a></li>
+                        <li><a href="#">그룹 내 고객정보 제공내역</a></li>
+                        <li><a href="#">ESG</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="footer_bottom">
+                <div class="inner">
+                    <div class="right">
+                        <div class="family_site">
+                            <select name="#" id="#">
+                                <option>KB 금융그룹 네트워크</option>
+                                <option value="1">창업문의</option>
+                                <option value="1">채용공고</option>
+                                <option value="1">브랜드정보</option>
+                                <option value="1">제품정보</option>
+                            </select>
+                            <select name="#" id="#">
+                                <option>대표전화 1588-9999</option>
+                                <option value="1">창업문의</option>
+                                <option value="1">채용공고</option>
+                                <option value="1">브랜드정보</option>
+                                <option value="1">제품정보</option>
+                            </select>
+                            <select name="#" id="#">
+                                <option>챗봇/채팅/이메일상담(24시간)</option>
+                                <option value="1">창업문의</option>
+                                <option value="1">채용공고</option>
+                                <option value="1">브랜드정보</option>
+                                <option value="1">제품정보</option>
+                            </select>
+                            <select name="#" id="#">
+                                <option>비교조회서비스</option>
+                                <option value="1">창업문의</option>
+                                <option value="1">채용공고</option>
+                                <option value="1">브랜드정보</option>
+                                <option value="1">제품정보</option>
+                            </select>
+                        </div>
+                        <div class="address">
+                            <p>서울특별시 종로구 새문안로3길 30 (주)KB국민카드 대표이사 이창권</p>
+                            <p>사업자등록번호 101-86-61717</p>
+                            <p>국내대표번호 1588-1688(유료)</p>
+                        </div>
+                        <div class="information">
+                            <span>ⓒ KB Kookmin Card Corp. All rights reserved.</span>
+                        </div>
+                    </div>
+                    <div class="left">
+                        <div class="icon">
+                            <i class="xi-facebook"></i>
+                            <i class="xi-instagram"></i>
+                            <i class="xi-youtube-play"></i>
+                            <i class="xi-kakaotalk"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </footer>
+    </div>
+</body>
+
+</html>
