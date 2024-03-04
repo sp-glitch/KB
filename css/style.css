@@ -3431,7 +3431,133 @@ body {
     }
 }
 
+@media (max-width: 500px) {
 
+    /* -------- 메인서비스 아이콘 -------- */
+    #Main .MainService {
+        word-break: keep-all;
+    }
+
+    /* -------- 섹션:메인서비스 -------- */
+
+    #Main .MainService {
+        padding: 5.6rem 0;
+        background: #f9f9f9;
+    }
+
+    #Main .MainService .inner {
+        display: flex;
+
+        /* 반응형 */
+        flex-direction: column;
+        gap: 20px;
+    }
+
+
+    /* -------- 메인서비스 타이틀 -------- */
+
+    #Main .MainService .tit_area {
+        /* 반응형 */
+        display: flex;
+        flex-direction: column;
+        gap: 16px;
+
+        align-items: center;
+        justify-content: center;
+    }
+
+    #Main .MainService .tit_area h3 {
+        font-size: 2.2rem;
+        font-weight: 600;
+        margin: 0 0 1.6rem 0;
+        color: var(--mc);
+
+        /* 반응형 */
+        margin: 0;
+    }
+
+    #Main .MainService .btn_area a {
+        display: block;
+        text-align: center;
+        padding: 0.54rem 0 0 0;
+        width: 7rem;
+        height: 3rem;
+        border: 0.1rem solid #bcbcbc;
+        background: var(--wc);
+        transition: 0.5s;
+    }
+
+    #Main .MainService .btn_area a:hover {
+        background: #f9f9f9;
+    }
+
+    #Main .MainService .btn_area a span {
+        font-size: 1.4rem;
+        color: var(--mc);
+    }
+
+    #Main .MainService .icon_area {
+        display: flex;
+        margin: -0.2rem 0 0 auto;
+        gap: 3.8rem;
+
+        /* 반응형 */
+        display: grid;
+
+        gap: 16px;
+        margin: 0;
+        grid-template-columns: repeat(3, 1fr);
+
+    }
+
+    #Main .MainService .icon_area>a {
+        flex: 1;
+
+        display: flex;
+        flex-direction: column;
+        /* align-items: center; */
+        margin: 0;
+        padding: 0;
+    }
+
+    #Main .MainService .icon_area figure {
+        display: flex;
+        border: 0.1rem solid #bcbcbc;
+        width: 9.6rem;
+        height: 9.6rem;
+        margin: 0 0 1.4rem 0;
+        border-radius: 50%;
+        justify-content: center;
+        align-items: center;
+        background: var(--wc);
+        transition: 0.3s;
+
+        /* 반응형 */
+    }
+
+    #Main .MainService .icon_area figure:hover {
+        background: #f9f9f9;
+    }
+
+    #Main .MainService .icon_area img {
+        filter: brightness(1.7);
+        width: 6rem;
+        height: 5rem;
+        object-fit: contain;
+    }
+
+    #Main .MainService .icon_area p {
+        font-size: 1.8rem;
+        font-weight: 500;
+        color: var(--mc);
+
+        text-align: center;
+
+        /* 반응형 */
+        display: block;
+        margin: 0 auto;
+    }
+}
 
 
 
